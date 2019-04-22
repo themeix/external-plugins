@@ -415,7 +415,7 @@ class Settings extends WP_REST_Settings_Controller {
 		$settings = self::$_titan->createContainer( array(
 				'type'       => 'admin-page',
 				'name'       => __( 'Settings', 'awesome-support' ),
-				'title'      => __( 'Awesome Support Settings', 'awesome-support' ),
+				'title'      => __( 'Doxy Support Ticket Settings', 'awesome-support' ),
 				'id'         => 'wpas-settings',
 				'parent'     => '',
 				'capability' => 'settings_tickets'

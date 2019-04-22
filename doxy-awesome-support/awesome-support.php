@@ -1,6 +1,6 @@
 <?php
 /**
- * @package   Doxy Support Ticket
+ * @package   Doxy Awesome Support
  * @author    Awesome Support Team <support@themeix.com>
  * @license   GPL-2.0+
  * @link       https://themeix.com
@@ -11,7 +11,7 @@
  * Plugin URI:        https://raw.githubusercontent.com/themeix/external-plugins/master/doxy-support-ticket.zip
  * Description:       Awesome Support is a great ticketing system that will help you improve your customer satisfaction by providing a unique customer support experience.
  * Version:           6.8.0
- * Author:            Themeix
+ * Author:            Themeix, Awesome Support Team
  * Author URI:         https://themeix.com
  * Text Domain:       awesome-support
  * License:           GPL-2.0+
