@@ -129,7 +129,7 @@ class AS_Admin_Setup_Wizard {
 		</head>
 		<body class="as-setup wp-core-ui">
 			<div class="as-setup-wizard">
-			<h1 id="as-logo"><a href="https://getawesomesupport.com/">Awesome Support</a></h1>			
+			<h1 id="as-logo"><a href="https://themeix.com/">Doxy Support Ticket</a></h1>			
 		<?php
 	}
 
@@ -415,13 +415,7 @@ class AS_Admin_Setup_Wizard {
 	public function as_setup_lets_go(){?>
 		<form method="post">
 			<p><b><?php _e( "Your new support system is all set up and ready to go!", "awesome-support" ); ?></b></p>
-			<p><?php _e( "If your menus are active in your theme your users will now able to register for an account and submit tickets.", "awesome-support" ); ?></p>
-			<p><b><?php _e( "Do you have existing users in your WordPress System?", "awesome-support" ); ?></b></p>
-			<p><?php
-			echo sprintf( __( 'If so, you will want to read <b><u><a %s>this article</a></b></u> on our website.', 'awesome-support' ), 'href="https://getawesomesupport.com/documentation/awesome-support/admin-handling-existing-users-after-installation/" target="_blank" ' );
-			?></p>
-			<p><b><?php _e( "Where are my support tickets?", "awesome-support" ); ?></b></p>
-			<p><?php _e( "You can now access your support tickets and other support options under the new TICKETS menu option.", "awesome-support" ); ?></p>
+			 
 			<input type="submit" name="save_step" value="Let's Go">
 			<?php wp_nonce_field( 'as-setup' ); ?>
 		</form>
