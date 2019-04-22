@@ -499,7 +499,7 @@ function wpas_free_addon_notice() {
 		return;
 	}
 
-	WPAS()->admin_notices->add_notice( 'updated', 'wpas_get_free_addon', wp_kses( sprintf( __( 'Hey! Did you know you can get a <strong>free add-on for unlimited sites</strong> (a $61.00 USD value) for Awesome Support? <a href="%1$s">Click here to read more</a>.', 'awesome-support' ), add_query_arg( array(
+	WPAS()->admin_notices->add_notice( 'updated', 'wpas_get_free_addon', wp_kses( sprintf( __( 'Get Awesome WordPress themes from us <a href="https://themeix.com">Click here to read more</a>.', 'awesome-support' ), add_query_arg( array(
 		'post_type' => 'ticket',
 		'page'      => 'wpas-optin',
 	), admin_url( 'edit.php' ) ) ), array( 'strong' => array(), 'a' => array( 'href' => array() ) ) ) );
